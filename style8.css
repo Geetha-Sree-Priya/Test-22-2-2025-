@@ -1,0 +1,23 @@
+/* Box styling */
+.box {
+    width: 100px;
+    height: 100px;
+    /* rebeccapurple color */
+    background-color: rebeccapurple; 
+    /* Apply animation */
+    animation: slide 2s linear infinite; 
+}
+
+/* Animation definition */
+@keyframes slide {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(300px); 
+    }
+}
+
+h1{
+    color:blueviolet;
+}

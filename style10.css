@@ -1,0 +1,22 @@
+/* Define CSS variable for the main color */
+:root {
+    /* Default rebeccapurple background color */
+    --main-color: rebeccapurple; 
+}
+
+/* Header and main section styling */
+header, main {
+    /* Apply the variable */
+    background-color: var(--main-color); 
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    :root {
+        /* Change color for small screens */
+        --main-color: rgb(250, 71, 101); 
+    }
+}
