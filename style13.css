@@ -1,0 +1,32 @@
+/* General style for the gallery */
+.gallery {
+    display: grid;
+    /* Two columns */
+    grid-template-columns: repeat(2, 1fr);
+    /* Space between images */ 
+    gap: 10px; 
+    /* Set the width of the gallery */
+    width: 80%; 
+    /* Center the gallery */
+    margin: auto; 
+  }
+  
+  /* Style for the images */
+  .gallery img {
+    width: 100%;
+    height: auto;
+    /* Apply grayscale filter by default */
+    filter: grayscale(100%); 
+    /* Smooth transition for filter change */
+    transition: filter 0.3s ease; 
+  }
+  
+  /* Remove grayscale on hover */
+  .gallery img:hover {
+    /* Remove grayscale when hovered */
+    filter: grayscale(0%); 
+  }
+  
+  h1{
+    color: blueviolet;
+  }

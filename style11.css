@@ -1,0 +1,30 @@
+/* Style for the hero section */
+.hero {
+    display: flex;
+    /* Horizontally center the text */
+    justify-content: center; 
+    /* Vertically center the text */
+    align-items: center; 
+    /* Full viewport height */
+    height: 100vh; 
+    /* Background image URL */
+    background-image: url('bg11.jpg'); 
+    /* Cover the entire container */
+    background-size: cover; 
+    /* Center the image */
+    background-position: center; 
+    /* Center the text */
+    text-align: center;
+    /* Text color */ 
+    color: wheat; 
+    /* Font style */
+    font-family: Arial, sans-serif; 
+  }
+  
+  /* Responsive padding adjustment for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 20px; 
+    }
+  }
+  

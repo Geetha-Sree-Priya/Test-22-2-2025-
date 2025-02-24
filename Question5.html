@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question5</title>
+    <style>
+        /* General gallery layout */
+        .gallery {
+        display: grid;
+        /* Two columns */
+        grid-template-columns: repeat(2, 1fr); 
+        /* 10px gap between grid items */
+        gap: 10px; 
+        }
+
+        /* Make the layout responsive */
+        @media (max-width: 600px) {
+        .gallery {
+            /* Single column layout on smaller screens */
+            grid-template-columns: 1fr; 
+        }
+        }
+
+        h1{
+            color: blueviolet;
+        }
+
+        img{
+            height: 50%;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Question 5-->
+    <!--Create a 2x2 grid layout for a photo gallery-->
+    <h1>Create a 2x2 grid layout for a photo gallery.</h1>
+    <div class="gallery">
+        <img src="img41.jpg" alt="img1">
+        <img src="img42.avif" alt="img2">
+        <img src="img43.webp" alt="img3">
+        <img src="img44.png" alt="img4">
+    </div>
+</body>
+</html>
